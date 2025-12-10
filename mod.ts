@@ -43,13 +43,5 @@ $`
         ).decode()
 `
 
-const graph6 = $f`graph6`
-const adjmat = $f`adjmat`
-
-console.log(graph6("CF"))
-console.log(adjmat([
-    [0,0,0,1],
-    [0,0,0,1],
-    [0,0,0,1],
-    [1,1,1,0],
-]))
+export const graph6 = $f`graph6`
+export const adjmat = $f`adjmat`
